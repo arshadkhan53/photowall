@@ -1,0 +1,168 @@
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: billabong, 'billabongregular';
+    font-size: 13rem;
+    text-align: center;
+    font-weight: 100;
+    margin: 2rem 0;
+    letter-spacing: -1px;
+    color: black;
+
+}
+.title {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'billabongregular';
+    src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot");
+    src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix") format('embedded-opentype'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff") format('woff'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf") format('truetype'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular") format('svg');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+.photoGrid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.figure {
+    flex-basis: calc(33.3333% - 4rem);
+    border: 1px solid #d3d3d3;
+    flex-grow: 1;
+    padding: 2rem;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.photo {
+    width: calc(100% + 4rem);
+    margin: -2rem 0rem 0rem -2rem;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    flex-basis: 48%;
+    color: red;
+    font-size: 15px;
+    border: 2px solid #f2f2f2;
+    line-height: 2;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.addIcon {
+    margin: 25px auto;
+    display: block;
+    padding: 40px;
+    background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center no-repeat;
+    background-size: contain;
+    border: none;
+    
+}
+
+.form {
+ background:white;
+ margin: 0 auto;
+ max-width: 360px;
+ padding: 45px;
+ text-align: center;
+
+}
+
+.form input {
+    font-family: sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+.form button {
+    width: 100%;
+    text-transform: uppercase;
+    border: none;
+    font-size: 14px;
+    padding: 15px;
+    background: #065784;
+    color: white;
+    cursor: pointer;
+}
+.form button:hover {
+    background: #7b8589;
+}
+button:hover {
+    border-color: blue;
+}
+
+.single-photo {
+    margin: 0 auto;
+    max-width: 700px;
+    display: flex;
+}
+.single-photo > div {
+    flex: 0 0 40%;
+}
+.comment-form {
+    display: flex;
+    flex-direction: column;
+}
+.comment-form > input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;  
+}
+.comment-thread {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #776e6e;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;  
+}
+
+.comment-count {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+.speech-bubble {
+    background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/51904-200.png") center no-repeat;
+    background-size: contain;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+    position: relative;
+    vertical-align: middle;
+}
+
+
+.gear {
+    content: "\2699";
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.gear a {
+    text-decoration: none;
+    cursor: pointer;
+}
